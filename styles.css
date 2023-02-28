@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Caveat', cursive;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-color: #5b5b57;
+    background-position: center;
+    background-image: url('https://www.belasis.com.br/wp-content/uploads/2018/03/Background-Blogpost-1280-px-%C3%97-853-px-20.png');
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #5b5b57;
+}
+
+.portfolio {
+    color: #fe83b4;
+    font-size: 36px;
+    padding-left: 20px;
+}
+
+.portfolio span {
+    color: #000000;
+}
+
+li {
+    color: #fe83b4;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: -9px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #000000;
+    transition: 0.5s;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: #fe83b4;
+}
+
+.menu-icon {
+    width: 25px;
+    margin-left: 180px;
+    display: none;
+}
+
+.nome {
+    position: absolute;
+    top: 50%;
+    left: 07%;
+}
+
+h1 {
+    color: #fe83b4;
+    font-size: 130px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 span {
+    color: #000000;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nome h3 {
+    color: #5b5b57;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 15px;
+    background-color: #000000;
+}
+
+section img {
+    height: 400px;
+    margin: 25px;
+}
+
+section div h2 {
+    color: #ffffff;
+    font-size: 75px;
+}
+
+section div p {
+    color: #da84a6;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+section div a {
+    background-color: #fe83b4;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+section div a:hover {
+    background-color: transparent;
+    border: 2px inset #da84a6;
+    transition: 0.5s;
+}
+
+.especialidades {
+    background-color: #191919;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.especialidades h2 {
+    color: #ffffff;
+    font-size: 75px;
+    text-align: center;
+}
+
+.card {
+    background-color: #000000;
+    height: 355px;
+    width: 325px;
+    border-radius: 20px;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.card img {
+    height: 100px;
+}
+
+#logo-atro {
+    border-radius: 20%;
+}
+
+.card h5 {
+    color: white;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+.card p {
+    color: #f1d1dd;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.card a {
+    background-color: #fe83b4;
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px inset #fe83b4;
+    transition: 0.5s;
+}
+
+.cards-especialidades {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 14px;
+}
+
+.social {
+    display: flex;
+    gap: 30px;
+}
+
+.social img {
+    height: 60px;
+}
+
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+@media screen and (max-width:760px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    nav {
+        /*position: relative;*/
+        z-index: 1;
+    }
+
+    #menu-list {
+        position: relative;
+        top: 92px;
+        left: -41px;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        margin-left: 35px;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-left: 123px;
+    }
+
+    .link-menu {
+        display: block;
+        margin-top: 5px;
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 53px;
+        margin-top: -177px;
+    }
+
+    .img-dev {
+        width: 405px;
+        top: 50%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section img {
+        height: 300px;
+    }
+
+    section div h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    section div p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    section div a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .especialidades h2 {
+        font-size: 44px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .cards-especialidades {
+        display: grid;
+    }
+
+    .social {
+        margin-bottom: 20px;
+    }
+}
