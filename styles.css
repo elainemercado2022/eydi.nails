@@ -71,6 +71,7 @@ h1 {
     color: #fe83b4;
     font-size: 130px;
     font-family: 'Dancing Script', cursive;
+    
 }
 
 h1 span {
@@ -80,7 +81,7 @@ h1 span {
 
 .nome h3 {
     color: #5b5b57;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 section {
