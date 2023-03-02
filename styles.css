@@ -15,11 +15,10 @@
 
 nav {
     position: fixed;
+    z-index: 1;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 50px;
     background-color: #5b5b57;
@@ -36,23 +35,22 @@ nav {
 }
 
 li {
-    color: #fe83b4;
+    color: #000000;
     list-style: none;
     display: inline-block;
     font-size: 25px;
     margin-right: 20px;
-    margin-top: -9px;
     cursor: pointer;
 }
 
-li:hover {
-    color: #000000;
+.link-menu:hover {
+    color: #fe83b4;
     transition: 0.5s;
 }
 
 .link-menu {
     text-decoration: none;
-    color: #fe83b4;
+    color: #000000;
 }
 
 .menu-icon {
@@ -247,8 +245,8 @@ footer p {
 
     #menu-list {
         position: relative;
-        top: 92px;
-        left: -41px;
+        top: 31px;
+        left: -35px;
         overflow: hidden;
     }
 
