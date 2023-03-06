@@ -10,7 +10,9 @@
     width: 100%;
     background-color: #5b5b57;
     background-position: center;
-    background-image: url('https://www.agenciaflash.com.br/wp-content/uploads/sites/65/2021/01/Manicure-e-Pedicure.jpg');
+    background-image: url(https://blog.eduk.com.br/wp-content/uploads/2021/01/16638manicureaperfeicoamentodecutilagemcamilacamacho.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -63,6 +65,8 @@ li {
     position: absolute;
     top: 50%;
     left: 07%;
+    text-align: right;
+    margin-right: 25px;
 }
 
 h1 {
