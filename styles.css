@@ -252,6 +252,9 @@ footer p {
         top: 31px;
         left: -35px;
         overflow: hidden;
+        background-color: #5b5b57;
+        padding-left: 7px;
+        border-radius: 10px;
     }
 
     .portfolio {
