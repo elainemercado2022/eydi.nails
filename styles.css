@@ -249,11 +249,12 @@ footer p {
 
     #menu-list {
         position: relative;
-        top: 31px;
+        top: 27px;
         left: -35px;
         overflow: hidden;
         background-color: #5b5b57;
         padding-left: 7px;
+        padding-bottom: 7px;
         border-radius: 10px;
     }
 
