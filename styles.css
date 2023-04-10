@@ -148,6 +148,9 @@ section div a:hover {
 
 .card img {
     height: 100px;
+    border-radius: 100%;
+    border: 3px inset #da84a6;
+    margin-top: -10px;
 }
 
 #logo-atro {
@@ -157,7 +160,6 @@ section div a:hover {
 .card h5 {
     color: white;
     font-size: 24px;
-    margin-top: -10px;
 }
 
 .card p {
